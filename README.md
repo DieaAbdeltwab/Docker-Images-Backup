@@ -27,8 +27,6 @@
 
 ## 🚀 Quick Start
 
-### 📥 Installation
-
 ```bash
 # Download
 git clone https://github.com/your-repo/docker-manager.git
@@ -44,7 +42,7 @@ chmod +x docker_Images_backup.sh
 ./docker_Images_backup.sh
 ```
 
-### 🎯 Usage
+### 🎯 Menu Options
 
 ```
 1) 💾 Save images (all or specific)
@@ -117,7 +115,6 @@ chmod +x docker_Images_backup.sh
 docker-manager/
 ├── docker_Images_backup.py    # Python v3.0
 ├── docker_Images_backup.sh    # Bash v2.0
-├── README.md
 └── backups/                    # Auto-created
     ├── nginx_latest.tar
     ├── postgres_13.tar
@@ -126,56 +123,11 @@ docker-manager/
 
 ---
 
-## 💡 Pro Tips
-
-- 🔢 Use ranges: `1-5` or `1,3-5,7`
-- 💾 Check space: `du -sh backups/`
-- 🔄 Python version keeps running - no restart needed!
-- 🪟 Windows users: Use Python version
-- 📦 Image names with `/` and `:` become `_` in filenames
-
----
-
 ## 🔧 Requirements
 
 - Docker Desktop installed and running
 - Python 3.6+ (for Python version)
 - Bash 5.0+ (for Bash version)
-
-### Install Docker
-
-```bash
-# Linux
-curl -fsSL https://get.docker.com | sh
-
-# Windows/macOS
-# Download from: https://docker.com/products/docker-desktop
-```
-
----
-
-## ❓ FAQ
-
-**Which version?**  
-Python for Windows/features, Bash for simplicity.
-
-**Change backup location?**  
-Edit `BACKUP_DIR` variable in the script.
-
-**Compressed?**  
-No, compress manually: `gzip backups/*.tar`
-
-**Automate?**  
-Add to cron/Task Scheduler (modify for non-interactive).
-
-**Ctrl+C during operation?**  
-Python asks to continue. Bash exits.
-
----
-
-## 📜 License
-
-MIT - Use freely!
 
 ---
 
