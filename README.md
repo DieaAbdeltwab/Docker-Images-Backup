@@ -137,6 +137,4 @@ docker-manager/
 
 ⭐ **Star if helpful!** ⭐
 
-[Report Bug](../../issues) • [Request Feature](../../issues)
-
 </div>
