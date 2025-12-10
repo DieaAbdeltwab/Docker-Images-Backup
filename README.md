@@ -5,7 +5,6 @@
 ![Version](https://img.shields.io/badge/version-3.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.6+-brightgreen.svg)
 ![Bash](https://img.shields.io/badge/bash-5.0+-orange.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 **Backup and restore Docker images with style! 💎✨**
 
