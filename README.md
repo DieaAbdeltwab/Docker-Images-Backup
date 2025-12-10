@@ -181,7 +181,7 @@ MIT - Use freely!
 
 <div align="center">
 
-**Made with 💙 by Grok AI & AI Assistant**
+**Made with 💙 by AI**
 
 ⭐ **Star if helpful!** ⭐
 
